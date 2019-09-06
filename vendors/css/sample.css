@@ -1,0 +1,123 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+
+/* ここから */
+header {
+  background-color: #353538;
+  padding: 1px 0 35px 0;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul a {
+  color: #fff;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+
+header li {
+  font-size: 15px;
+}
+
+header ul .left{
+  float: left;
+}
+
+header ul .hearder-right{
+  float: right;
+}
+
+header ul .hearder-right .right{
+  float: left;
+}
+
+/*header ul:after {
+}*/
+/* ここまでがheader部分の実装 */
+.main-header img{
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+  height: 80px;
+  margin: 115px 0 0 0;
+}
+
+.about h1{
+  margin-top: 2rem;
+}
+
+.about p{
+/* About Achieve部分の実装 */
+  margin: 40px 0;
+}
+
+/* ここから */
+.function {
+  background-color: #d2d2d4;
+  position: relative;
+}
+
+.function h1{
+  padding: 50px 0 30px 0;
+}
+
+.function-images {
+  display: table;
+  margin: 0 auto;
+}
+
+.function-image {
+  padding: 0 20px 100px 20px;
+  display: table-cell;
+  text-align: center;
+  width: 100px;
+  margin: 0 auto;
+}
+
+.function-image img{
+  width: 80px;
+}
+
+.function-image p{
+  width: 130px;
+}
+
+/* ここまでがfunction部分の実装 */
+
+footer{
+/* footer部分の実装 */
+  background-color: #374b5c;
+  height: 70px;
+  width: 100%;
+  margin: 0;
+}
+
+footer .footer-word p{
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+footer p{
+  color: #ffffff;
+  font-size: 0.5rem;
+}
+
+.clearfix:after{
+  content: "";/*空のコンテンツ*/
+  display: block;/*コンテンツが幅や高さを持てるよう設定*/
+  clear: both;/*floatの"左寄せ、右寄せの両方"を解除 floatをしたら解除しないと各要素が重なってしまうことがるためclearは必須*/
+}
